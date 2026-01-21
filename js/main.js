@@ -48,8 +48,6 @@ function init(){
 
 //typed js
 
-
-
 function printGraph(){
     var ctx = document.getElementById('myChart').getContext('2d');
     new Chart(ctx, {
@@ -129,7 +127,6 @@ function printGraph(){
       // });
 
     // $("form").validator({ lang: 'en' });
-
 
 }
 
