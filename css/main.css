@@ -1,7 +1,9 @@
 .justify {
   text-align: justify;
+  margin-right: 30px;
   color: black;
 }
+
 h3 {
   color: black;
 }
@@ -114,7 +116,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Google Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/primary-bg.jpg);
