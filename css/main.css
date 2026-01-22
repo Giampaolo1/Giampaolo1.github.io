@@ -114,7 +114,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Montserrat", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Google Sans", sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/primary-bg.jpg);
@@ -365,9 +365,10 @@ main {
 .tomtomAttribution {
   display: none; }
 
-canvas {
-  background-image: radial-gradient(#5A5D7A); }
-
+/* canvas {
+  background: lightgrey;
+}
+ */
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }

@@ -53,20 +53,19 @@ function printGraph(){
     new Chart(ctx, {
         type: 'horizontalBar',
         data: {
-            labels: ["Fintech", "TestWebBDD", "Atlassian" , "Freshdesk", "HTML/CSS", "JS/PHP/SQL", "GIT", "API"],
+            labels: ["Fintech", "Wordpress", "Atlassian" , "Freshdesk", "HTML/CSS", "JS/PHP/SQL", "GIT", "API"],
             datasets: [{
                 label: 'Skills',
-                data: [90, 85, 80, 85, 80, 72, 80, 80],
+                data: [90, 80, 80, 90, 90, 72, 78, 80],
                 backgroundColor: [
-                  "#35feff",
-                  "#35feff",
-                  "#35feff",
-                  "#35feff",
-                  "#35feff",
-                  "#35feff",
-                  "#35feff",
-                  "#35feff",
-      
+                  "#05BFE6",
+                  "#05BFE6",
+                  "#05BFE6",
+                  "#05BFE6",
+                  "#05BFE6",
+                  "#05BFE6",
+                  "#05BFE6",
+                  "#05BFE6",
                 ],
                 
                 //  borderColor: [
@@ -86,7 +85,6 @@ function printGraph(){
             }]
         },
         options: {
-
           // animation: true,
           // animationSteps: 4000,
           // animationEasing: "linear",
@@ -108,13 +106,13 @@ function printGraph(){
                 xAxes: [{
                     ticks: {
                         beginAtZero: true,
-                        fontColor: "white"
+                        fontColor: "black"
                     }
                 }],
                 yAxes: [{
                     ticks: {
                         beginAtZero: true,
-                        fontColor: "white"
+                        fontColor: "black"
                     }
                 }],
             }
