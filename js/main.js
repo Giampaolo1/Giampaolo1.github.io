@@ -53,10 +53,10 @@ function printGraph(){
     new Chart(ctx, {
         type: 'horizontalBar',
         data: {
-            labels: ["Fintech", "Wordpress", "Atlassian" , "Freshdesk", "HTML/CSS", "JS/PHP/SQL", "GIT", "API"],
+            labels: ["Fintech", "SaaS", "Atlassian", "Wordpress", "HTML/CSS", "JS/PHP/SQL", "GIT", "API"],
             datasets: [{
                 label: 'Skills',
-                data: [90, 80, 80, 90, 90, 72, 78, 80],
+                data: [90, 90, 85, 90, 90, 72, 78, 80],
                 backgroundColor: [
                   "#05BFE6",
                   "#05BFE6",
