@@ -342,9 +342,11 @@ main {
   justify-content: space-around;
   align-items: center;
   padding: 1rem;
-  background: #F5F5F7;
   color: black;
-  height: 60px; }
+  height: 60px; 
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
   #main-footer a {
     margin-right: 10px; }
   #main-footer .signature {
